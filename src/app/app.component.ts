@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tempCalc';
+  title = 'Practice App #1 - Temperature Converter';
 }
