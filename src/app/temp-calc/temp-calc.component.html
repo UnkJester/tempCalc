@@ -1,17 +1,17 @@
 <h2>Fahrenheit:
   <label>
-    <input style="color:green" type='text' [(ngModel)]='fahrenheit' (keyup)="changeF()">
+    <input style="color:green" type='number' [(ngModel)]='fahrenheit' (keyup)="changeF()" step=".01">
   </label>
 </h2>
 <hr>
 <h2>Celsius:
   <label>
-    <input style='color:blue' type='text' [(ngModel)]="celsius" (keyup)="changeC()">
+    <input style='color:blue' type='number' [(ngModel)]="celsius" (keyup)="changeC()" step=".01">
   </label>
 </h2>
 <hr>
 <h2>Kelvin:
   <label>
-    <input style="color:red" type='text' [(ngModel)]='kelvin' (keyup)="changeK()">
+    <input style="color:red" type='number' [(ngModel)]='kelvin' (keyup)="changeK()" step=".01">
   </label>
 </h2>
